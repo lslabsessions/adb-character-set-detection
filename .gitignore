@@ -1,0 +1,11 @@
+# Logs / temp files
+*.log
+*.tmp
+
+# Never commit local credentials or wallets
+*.pem
+*.p12
+*.sso
+*.jks
+*.zip
+wallet*/
