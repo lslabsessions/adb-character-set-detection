@@ -260,14 +260,15 @@ Run the scripts in numerical order:
 
 | Script | Purpose |
 |---|---|
-| `01-environment-and-version.sql` | Check version, character sets, and API presence |
-| `02-detect-varchar2.sql` | Establish a `VARCHAR2` baseline |
-| `03-detect-blob.sql` | Detect a controlled Windows-1252 byte stream |
-| `04-ambiguous-vs-discriminating.sql` | Compare ambiguous and discriminating samples |
-| `05-detect-and-convert.sql` | Run the main detect → convert → validate pipeline |
-| `06-sample-size-impact.sql` | Demonstrate the risk of truncated sampling |
-| `07-validate-character-encoding.sql` | Demonstrate structural encoding validation |
-| `08-length-semantics.sql` | Explore `BYTE` vs `CHAR` semantics in `AL32UTF8` |
+| `001-environment-and-version.sql` | Check version, character sets, and API presence |
+| `002-detect-varchar2.sql` | Establish a `VARCHAR2` baseline |
+| `003-detect-blob.sql` | Detect a controlled Windows-1252 byte stream |
+| `003-detect-blob-al32utf8.sql` | Detect a controlled AL32UTF8 byte stream |
+| `004-ambiguous-vs-discriminating.sql` | Compare ambiguous and discriminating samples |
+| `005-detect-and-convert.sql` | Run the main detect → convert → validate pipeline |
+| `006-sample-size-impact.sql` | Demonstrate the risk of truncated sampling |
+| `007-validate-character-encoding.sql` | Demonstrate structural encoding validation |
+| `008-length-semantics.sql` | Explore `BYTE` vs `CHAR` semantics in `AL32UTF8` |
 
 ## Supporting notes
 
@@ -276,7 +277,6 @@ Run the scripts in numerical order:
 - [`docs/sample-size-and-confidence.md`](docs/sample-size-and-confidence.md)
 - [`docs/migration-considerations.md`](docs/migration-considerations.md)
 - [`docs/legacy-java-gdk.md`](docs/legacy-java-gdk.md)
-- [`docs/screenshots/README.md`](docs/screenshots/README.md)
 
 ## Legacy background
 
