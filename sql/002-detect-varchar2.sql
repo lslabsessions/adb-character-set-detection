@@ -1,10 +1,11 @@
-/*  02-detect-varchar2.sql
+/*  
 	Baseline detection using VARCHAR2.
 
 	In the test database NLS_CHARACTERSET = AL32UTF8. This is useful as a
 	baseline, but external encoding detection is better demonstrated using the
 	original byte stream (for example BLOB/BFILE) before those bytes have been
-	interpreted as database character data.*/
+	interpreted as database character data.
+*/
 
 set serveroutput on;
 
