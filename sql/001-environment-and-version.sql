@@ -1,6 +1,7 @@
-/*  01-environment-and-version.sql
+/*  
 	Check the database version, database character sets, session length
-	semantics, and the presence of the new UTL_I18N detection procedures.*/
+	semantics, and the presence of the new UTL_I18N detection procedures.
+*/
 
 prompt === DATABASE VERSION ===
 
