@@ -63,7 +63,7 @@ The detailed discussion, including byte examples and the distinction between inv
 - Using `VALIDATE_CHARACTER_ENCODING`
 - Showing why valid encoding does not necessarily mean that the original text was preserved correctly
 - Comparing `BYTE` and `CHAR` length semantics for `AL32UTF8`
-- Documenting version observations from Oracle Database 19c and Oracle AI Database 26ai
+- Documenting version observations from Oracle AI Database 26ai
 - Comparing the native PL/SQL API with a previous Java GDK approach
 
 ## Main flow
