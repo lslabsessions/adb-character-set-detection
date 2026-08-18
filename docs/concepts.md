@@ -56,7 +56,7 @@ Bytes
 
 Unicode is a useful example.
 
-Unicode assigns characters to abstract code points.
+Unicode assigns each character a unique numerical value called a code point.
 
 For example:
 
